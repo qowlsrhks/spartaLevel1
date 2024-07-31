@@ -45,7 +45,6 @@ public class Level1_calculator {
                 listArr.remove(0);
             }
 
-
             System.out.println("저장된 연산결과를 조회하시겠습니까? (inquiry 입력 시 조회)");
             String inquiry = sc.next();
             if (inquiry.equals("inquiry")) {
