@@ -1,13 +1,12 @@
-package calculator;
+package calculator.level1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Calculator {
+public class Level1_calculator {
 
     public static void main(String[] args) {
         ArrayList<Integer> listArr = new ArrayList<>();
-        int count = 0;
         Scanner sc = new Scanner(System.in);
 
         int result = 0;
